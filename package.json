@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Knz17.github.io/lazismu",
+  "homepage": "https://knz17.github.io/lazismu",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
