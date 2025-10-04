@@ -3,7 +3,7 @@ import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const LazismuLogoLight = () => (
-    <svg width="150" height="40" viewBox="0 0 263 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="150" height="40" viewBox="0 0 263 70" fill="none" xmlns="https://drive.google.com/file/d/13gdbM0_HL44QcEUvzaB5mzYWqJiIHcoI/view?usp=drive_link">
       <text fill="white" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Poppins" fontSize="48" fontWeight="bold" letterSpacing="0em"><tspan x="0" y="52.2656">lazis</tspan></text>
       <text fill="white" xmlSpace="preserve" style={{whiteSpace: "pre"}} fontFamily="Poppins" fontSize="48" fontWeight="200" letterSpacing="0em"><tspan x="127" y="52.2656">mu</tspan></text>
       <rect x="233" y="15" width="29" height="30" rx="4" fill="#Ffa500"/>
