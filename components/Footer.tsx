@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <div className="flex justify-center md:justify-start mb-4">
-              <img src="/assets/logo-light.png" alt="Lazismu Turkey Logo" className="h-12 w-auto" />
+              <img src="/public/assets/logo-light.png" alt="Lazismu Turkey Logo" className="h-12 w-auto" />
             </div>
             <p className="text-gray-400">{t('footer_motto')}</p>
           </div>

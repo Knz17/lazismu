@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ onDonateClick }) => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         <a href="#home" className="flex items-center">
-          <img src="/assets/logo.png" alt="Lazismu Turkey Logo" className="h-12 w-auto" />
+          <img src="/public/assets/logo.png" alt="Lazismu Turkey Logo" className="h-12 w-auto" />
         </a>
 
         <nav className="hidden lg:flex items-center space-x-8">
