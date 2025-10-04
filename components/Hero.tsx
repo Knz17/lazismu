@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 
@@ -10,7 +9,7 @@ const Hero: React.FC<HeroProps> = ({ onDonateClick }) => {
   const { t } = useLanguage();
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center text-white text-center" style={{ backgroundImage: "url('https://picsum.photos/seed/hero-bg/1920/1080')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <section id="home" className="relative h-screen flex items-center justify-center text-white text-center" style={{ backgroundImage: "url('/assets/images/hero-background.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative z-10 p-6">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-down">{t('hero_title')}</h1>

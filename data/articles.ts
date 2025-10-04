@@ -1,4 +1,3 @@
-
 import type { Article } from '../types';
 
 /*
@@ -6,21 +5,27 @@ import type { Article } from '../types';
   == EDIT THIS FILE to add, remove, or change news articles on the website. ==
   =============================================================================
   
-  Instructions:
+  Instructions for Managing Article Images:
+  1. Create a `public` folder in the root of your project if it doesn't exist.
+  2. Inside `public`, create an `assets` folder.
+  3. Inside `assets`, create an `images` folder.
+  4. Place your article images (e.g., `my-article-photo.jpg`) inside the `public/assets/images/` directory.
+  5. In the `articles` array below, update the `image` property to the correct path, 
+     like `image: '/assets/images/my-article-photo.jpg'`.
+
+  Instructions for Editing Article Content:
   1. To add a new article, copy an existing article object (from `{` to `},`) 
      and paste it as a new item in the `articles` array.
   2. Change the `id` to a new unique number.
-  3. Replace the `image` URL with a new one. For best results, use images with a 
-     16:9 aspect ratio (e.g., 1280x720 pixels).
-  4. Fill in the `date`, `title`, `summary`, and `content` for all three languages 
+  3. Fill in the `date`, `title`, `summary`, and `content` for all three languages 
      ('id', 'tr', 'en').
-  5. The `content` can include HTML tags like <p>, <strong>, and <ul> for formatting.
+  4. The `content` can include HTML tags like <p>, <strong>, and <ul> for formatting.
 */
 
 export const articles: Article[] = [
   {
     id: 1,
-    image: 'https://picsum.photos/seed/lazismu1/1280/720',
+    image: '/assets/images/news-education-assistance.jpg',
     date: {
       id: '15 Juli 2024',
       tr: '15 Temmuz 2024',
@@ -44,7 +49,7 @@ export const articles: Article[] = [
   },
   {
     id: 2,
-    image: 'https://picsum.photos/seed/lazismu2/1280/720',
+    image: '/assets/images/news-winter-food.jpg',
     date: {
       id: '2 Agustus 2024',
       tr: '2 Ağustos 2024',
