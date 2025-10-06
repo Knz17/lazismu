@@ -1,4 +1,4 @@
-
+import React from 'react';
 export type Language = 'id' | 'tr' | 'en';
 
 export interface MultiLanguageString {
